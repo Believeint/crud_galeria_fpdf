@@ -66,8 +66,8 @@
 										     profissaoUsuario=:profU, 
 										     imagemUsuario=:imgU 
 								       WHERE idUsuario=:idU');
-			$stmt->bindParam(':nomeU',$nomeUsuario);
-			$stmt->bindParam(':profU',$profissaoUsuario);
+			$stmt->bindParam(':nomeU',$usuario);
+			$stmt->bindParam(':profU',$profUsuario);
 			$stmt->bindParam(':imgU',$imgUsuario);
 			$stmt->bindParam(':idU',$id);
 				
